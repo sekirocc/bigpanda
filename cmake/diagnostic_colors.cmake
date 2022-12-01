@@ -1,4 +1,4 @@
-if(NOT MY_NO_COLORS_IN_OUTPUT)
+if(NOT BIGPANDA_NO_COLORS_IN_OUTPUT)
   # Force colored output from compilers even when output is piped (not a tty)
   # as is the case when building with ninja. For reference see these 2 issues:
   # https://github.com/ninja-build/ninja/issues/174
