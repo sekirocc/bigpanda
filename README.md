@@ -30,7 +30,7 @@ mkdir build && cd build
 cmake ..
 make
 
-./sample
+sudo ./bigpanda
 
 => print cpu cores number. in my env, it is '8'
 
