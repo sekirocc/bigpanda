@@ -1,6 +1,8 @@
 
 Template to include seastar in your c++ project.
 
+collect the minimun working peices from the `redpanda` project.
+
 
 # Prerequisite
 
@@ -20,7 +22,7 @@ sudo pacman -Sy valgrind
 ```
 
 
-# Build
+# Build and run
 
 ```
 mkdir build && cd build
