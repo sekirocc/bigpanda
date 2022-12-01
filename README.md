@@ -1,13 +1,13 @@
 
-Template to include seastar in your c++ project.
+Template code to include seastar in your c++ project.
 
-collect the minimun working peices from the `redpanda` project.
+I collected the minimun working peices of code from the `redpanda-data/redpanda` project, so you can use it as a starting point.
 
 
 # Prerequisite
 
 ```
-# we use lld to linker
+# use lld as linker
 
 sudo pacman -Sy lld
 
@@ -15,7 +15,7 @@ sudo pacman -Sy lld
 # these are dependencies of seastar
 
 sudo pacman -Sy lksctp-tools
-sudo pacman -Ss yaml-cpp
+sudo pacman -Sy yaml-cpp
 sudo pacman -Sy ragel
 sudo pacman -Sy valgrind
 
@@ -32,6 +32,6 @@ make
 
 ./sample
 
-=> print cpu cores number. mine is '8'
+=> print cpu cores number. in my env, it is '8'
 
 ```
